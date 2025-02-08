@@ -10,7 +10,6 @@ function Category() {
     setSlide(slide - 3);
   };
   const right = () => {
-    console.log(slide);
     if (slide == categories.length - 9) return false;
     setSlide(slide + 3);
   };
@@ -55,12 +54,16 @@ function Category() {
               }}
               className="flex-grow w-[144px] h-[180px] shrink-0 duration-500"
             >
-              <img src={"http://localhost:2000/images/" + items.image} alt="" />
+              <img
+                src={"http://localhost:2000/images/" + items.image}
+                alt=""
+                keys={index}
+              />
             </div>
           );
         })}
       </div>
-        <hr className="my-6 border-1 border-gray-200"/>
+      <hr className="my-6 border-1 border-gray-200" />
     </div>
   );
 }

@@ -4,6 +4,7 @@ import Header from "./components/Header";
 import Category from "./components/Category";
 import Restorants from "./components/Restorants";
 import Avaiable from "./components/Avaiable";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Category />
       <Restorants/>
       <Avaiable/>
+      <Footer/>
     </>
   );
 }

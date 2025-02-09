@@ -48,7 +48,7 @@ function Header() {
   return (
     <>
       <div
-        className="black-overlay w-full h-full fixed duration-500"
+        className="black-overlay w-full h-full fixed duration-500 z-[99999]"
         onClick={hideSideMenu}
         style={{
           opacity: toggle ? 1 : 0,
@@ -59,7 +59,7 @@ function Header() {
           onClick={(e) => {
             e.stopPropagation();
           }}
-          className="w-[500px] bg-white h-full absolute duration-400"
+          className="w-[500px] bg-white h-full duration-400 "
           style={{
             left: toggle ? "0%" : "-100%",
           }}
@@ -80,7 +80,7 @@ function Header() {
         </div>
       </div>
 
-      <header className="p-1 shadow-md ">
+      <header className="p-1 shadow-md sticky top-0 bg-white z-[9999]">
         <div className="max-w-[1100px] mx-auto flex items-center">
           <div className="w-[80px]">
             <img src="images/swiggylogo.png" className="w-full" />
@@ -96,7 +96,7 @@ function Header() {
               className="inline text-2xl text-orange-500"
             />
           </div>
-          <nav className="flex list-none gap-5 ml-auto text-[#686b78] text-[18px]">
+          <nav className="flex list-none gap-5 ml-auto text-[#686b78] text-[18px] ">
             {navItem.map((item, index) => {
               return (
                 <li

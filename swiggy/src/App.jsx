@@ -3,6 +3,7 @@ import React from "react";
 import Header from "./components/Header";
 import Category from "./components/Category";
 import Restorants from "./components/Restorants";
+import Avaiable from "./components/Avaiable";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Header />
       <Category />
       <Restorants/>
+      <Avaiable/>
     </>
   );
 }

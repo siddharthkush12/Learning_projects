@@ -5,8 +5,8 @@ function Card(props) {
   
 
   return (
-    <div className="w-[324px] p-1 flex-grow shrink-0 transition-all duration-500 ease-in-out hover:scale-105">
-      <div className="h-[220px] relative">
+    <div className="w-[260px] p-1 flex-grow shrink-0 transition-all duration-500 ease-in-out hover:scale-105">
+      <div className="h-[160px] relative">
         <img
           src={"http://localhost:2000/images/" + props.image}
           alt=""

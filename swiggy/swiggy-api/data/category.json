@@ -72,8 +72,16 @@
         "path": "rolls"
     },
     {
+        "image": "Pizza.jpeg",
+        "path": "pizza"
+    },
+    {
         "image": "Salad.jpeg",
         "path": "salad"
+    },
+    {
+        "image": "Pasta.jpeg",
+        "path": "pasta"
     }
     
 ]

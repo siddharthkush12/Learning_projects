@@ -17,15 +17,16 @@ function Restorants() {
   }, []);
 
   const left = () => {
-    setSlide(slide - 1);
+    setSlide(slide - 2);
   };
 
   const right = () => {
-    if (slide < 5) setSlide(slide + 1);
+    if (slide >= 7)  return false;
+    setSlide(slide + 2);
   };
 
   return (
-    <div className="max-w-[1300px] mx-auto">
+    <div className="max-w-[1100px] mx-auto">
       <div className="flex justify-between my-5">
         <div className="text-2xl font-bold text-gray-800">
           Top restaurant chains in Jalandhar

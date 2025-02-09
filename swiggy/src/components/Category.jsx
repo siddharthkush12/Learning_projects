@@ -7,11 +7,11 @@ function Category() {
 
   const left = () => {
     if (slide == 0) return false;
-    setSlide(slide - 3);
+    setSlide(slide - 4);
   };
   const right = () => {
-    if (slide == categories.length - 9) return false;
-    setSlide(slide + 3);
+    if (slide >= 17) return false;
+    setSlide(slide + 4);
   };
 
   const fetchCategory = async () => {
@@ -25,7 +25,7 @@ function Category() {
   }, []);
 
   return (
-    <div className="max-w-[1300px] mx-auto">
+    <div className="max-w-[1100px] mx-auto">
       <div className="flex mt-4 justify-between">
         <div className="font-bold text-2xl text-gray-800">
           What's on your mind?
@@ -45,7 +45,7 @@ function Category() {
           </div>
         </div>
       </div>
-      <div className="flex overflow-hidden">
+      <div className="flex overflow-hidden gap-9">
         {categories.map((items, index) => {
           return (
             <div

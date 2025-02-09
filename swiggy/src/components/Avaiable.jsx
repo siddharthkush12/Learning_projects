@@ -18,13 +18,13 @@ function Avaiable() {
     restorantList();
   }, []);
   return (
-    <div className="max-w-[1300px] mx-auto">
+    <div className="max-w-[1100px] mx-auto">
       <div>
         <div className="text-2xl font-bold text-gray-800">
           Restaurants with online food delivery in Jalandhar
         </div>
         <div>
-          <div className="max-w-[1200] mx-auto flex gap-3 my-2 text-gray-500">
+          <div className="max-w-[1100] mx-auto flex gap-2 my-7 text-gray-500">
             <Button label="Filter" icon={IoFilter}/>
             <Button label="Sort By" icon={FaAngleDown}/>
             <Button label="Fast Delivery"/>
@@ -37,7 +37,7 @@ function Avaiable() {
           </div>
         </div>
       </div>
-      <div className="grid grid-cols-4 gap-6 my-5 shrink-0 flex-grow">
+      <div className="grid grid-cols-4 gap-6 my-7 shrink-0 flex-grow">
       {list.toReversed().map((data, index) => {
           return (
             <div>

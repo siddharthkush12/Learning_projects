@@ -81,7 +81,7 @@ function Header() {
       </div>
 
       <header className="p-1 shadow-md sticky top-0 bg-white z-[9999]">
-        <div className="max-w-[1100px] mx-auto flex items-center">
+        <div className="max-w-[1250px] mx-auto flex items-center">
           <div className="w-[80px]">
             <img src="images/swiggylogo.png" className="w-full" />
           </div>
@@ -96,7 +96,7 @@ function Header() {
               className="inline text-2xl text-orange-500"
             />
           </div>
-          <nav className="flex list-none gap-5 ml-auto text-[#686b78] text-[18px] ">
+          <nav className="flex list-none gap-8 ml-auto text-[#686b78] text-[18px] ">
             {navItem.map((item, index) => {
               return (
                 <li

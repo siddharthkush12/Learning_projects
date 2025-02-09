@@ -3,17 +3,17 @@ import { FaRegCopyright } from "react-icons/fa6";
 function Footer() {
   return (
     <div className="w-full bg-[#f1f0f4]">
-      <div className="max-w-[1300px] mx-auto border-t-2 items-center ">
-        <div className="flex gap-5 p-12 ml-17">
+      <div className="max-w-[1100px] mx-auto border-t-2">
+        <div className="flex flex-wrap inert-x-0 justify-between items-center p-5">
           <div className="text-2xl font-bold text-gray-500">
             For better experience, download the Swiggy app now
           </div>
-          <div className="w-[201px] flex gap-5">
+          <div className="w-[180px] flex justify-end gap-5">
             <img src="images/googleplay.png" alt="" />
             <img src="images/appleplay.png" alt="" />
           </div>
         </div>
-        <div className="grid grid-cols-4 text-gray-500">
+        <div className="grid grid-cols-4 text-gray-500 py-10 px-5 gap-15">
           <div className=" col-start-1">
             <img
               src="images/swiggycopyright.png"

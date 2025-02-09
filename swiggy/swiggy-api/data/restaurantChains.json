@@ -98,5 +98,15 @@
         "maxTime": 40,
         "name": "Cake",
         "place": "Chopsani Housing Board"
+    },
+    {
+        "image": "75d0b3ebeb56fe2484c944e94cac7a8d.jpeg",
+        "offer": "₹50 OFF ABOVE ₹199",
+        "title": "Janta Sweet Home",
+        "rating": 4.5,
+        "minTime": 35,
+        "maxTime": 40,
+        "name": "Sweets,South Indian",
+        "place": "Shastri Nagar"
     }
 ]

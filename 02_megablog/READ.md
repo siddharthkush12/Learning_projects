@@ -11,3 +11,5 @@
 
 6:- HTML react parser (npm i html-react-parser)
 7:- react hook form (npm install react-hook-form)   :It is alternative of <Form> with extra errror handling
+8:- react-router (npm i react-router)
+9:- react icons (npm install react-icons --save)

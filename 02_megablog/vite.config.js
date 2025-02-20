@@ -4,5 +4,11 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
+  define: {
+    'process.env': {},
+  },
+  optimizeDeps: {
+    include: ['process'],
+  },
   plugins: [react(),tailwindcss(),],
 })

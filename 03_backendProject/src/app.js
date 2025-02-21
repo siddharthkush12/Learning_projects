@@ -30,4 +30,20 @@ app.use(express.static("public"));                 //public assets (public folde
 
 app.use(cookieParser());                           //to access the user bowser cookies 
 
+
+
+
+
+
+//Routes import
+
+import userRouter from "./routes/user.routes.js"
+
+
+
+//Routes declerations
+
+app.use("/api/v1/users",userRouter)
+
+
 export { app };

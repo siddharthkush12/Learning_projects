@@ -24,7 +24,7 @@
 10: Bcrypt (npm i bcrypt)         A library to help you hash passwords.
 11: JWT(jsonwebtoken)   (npm i jsonwebtoken)
 12: multer (npm i multer)
-
+13: cloudinary (npm i cloudinary)
 
 
 Notes:- > "touch" create file

@@ -23,6 +23,8 @@
 9: Mongoose aggregate paginate(pipeline)  (npm i mongoose-aggregate-paginate-v2)
 10: Bcrypt (npm i bcrypt)         A library to help you hash passwords.
 11: JWT(jsonwebtoken)   (npm i jsonwebtoken)
+12: multer (npm i multer)
+
 
 
 Notes:- > "touch" create file

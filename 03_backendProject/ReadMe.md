@@ -17,7 +17,9 @@
 
 5: (dotenv, mongoose, express) required    
 
-5: "dev": "nodemon -r dotenv/config --experimental-json-modules src/index.js"     to use env as experimental feature
+6: "dev": "nodemon -r dotenv/config --experimental-json-modules src/index.js"     to use env as experimental feature
+7: cookie parser (npm i cookie-parser)
+8: cors (npm i cors)
 
 Notes:- > "touch" create file
         > "mkdir" create folder

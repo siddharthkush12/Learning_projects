@@ -20,6 +20,10 @@
 6: "dev": "nodemon -r dotenv/config --experimental-json-modules src/index.js"     to use env as experimental feature
 7: cookie parser (npm i cookie-parser)
 8: cors (npm i cors)
+9: Mongoose aggregate paginate(pipeline)  (npm i mongoose-aggregate-paginate-v2)
+10: Bcrypt (npm i bcrypt)         A library to help you hash passwords.
+11: JWT(jsonwebtoken)   (npm i jsonwebtoken)
+
 
 Notes:- > "touch" create file
         > "mkdir" create folder
@@ -50,3 +54,4 @@ const app = express();
 })();
 
 
+# Notes:
